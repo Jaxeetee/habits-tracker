@@ -1,7 +1,7 @@
 # Habit Tracker 
 
-Language used: <span background-color="#7eba63">**C#**==</span>
-Framework used:<span background-color="#7eba63">**.NET MAUI**</span>
+Language used: <span style="background-color:#7eba63">C#</span>
+Framework used:<span style="background-color:#7eba63">**.NET MAUI**</span>
 
 ## Target Platform
 - [x] Android
