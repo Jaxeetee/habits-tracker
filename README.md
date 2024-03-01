@@ -1,7 +1,8 @@
 # Habit Tracker 
 
 > Language used: <mark style="background-color:#7eba63">C#</mark>
-> Framework used: <mark style="background-color:#7eba63">**.NET MAUI**</mark>
+
+> Framework used: <mark style="background-color:#7eba63">.NET MAUI</mark>
 
 ## Target Platform
 - [x] Android
