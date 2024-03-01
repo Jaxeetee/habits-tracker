@@ -7,8 +7,8 @@
 : .NET MAUI
 
 ## Target Platform
-[x] Android
-[] IOS
+- [x] Android
+- [ ] IOS
 
 ### My vision for the project
 - An app that can remind its users on their habits daily through notifications
