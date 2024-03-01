@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "HabitTracker\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Jacob\\Documents\\My Labs\\HabitTracker\\HabitTracker\\MainPage.xaml",
               "RelativeToolTip": "HabitTracker\\MainPage.xaml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-02-21T07:10:40.231Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "HabitTracker\\MauiProgram.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAcwBAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T04:18:02.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T04:18:02.145Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "HabitTracker\\AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T04:43:07.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T04:43:07.015Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "HabitTracker\\AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-21T04:43:03.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T04:43:03.376Z"
             }
           ]
         }
