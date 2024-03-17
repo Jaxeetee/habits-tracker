@@ -12,20 +12,38 @@
         <Border
             BackgroundColor="{StaticResource SecondaryBG}"
             StrokeThickness="0"
-            FlexLayout.Grow=".5">
+            FlexLayout.Grow=".5"
+            Padding="10">
             <Border.Shadow>
                 <Shadow Offset="0,5"
                         Radius="5"
                         Opacity="0.5"
                         />
             </Border.Shadow>
-            <Label
-                Text="Daily Habits"
-                FontFamily="Satoshi"
-                TextTransform="Uppercase"
-                HorizontalTextAlignment="Start"
-                VerticalTextAlignment="Center"
-                FontSize="24" />
+                <VerticalStackLayout
+                    VerticalOptions="Center">
+                    <Label
+                        x:Name="lbl_date"
+                        Text="Date!"
+                        FontFamily="Satoshi"
+                        HorizontalTextAlignment="Start"
+                        VerticalTextAlignment="Center"
+                        FontSize="24" />
+                    <Label
+                        Text="Good day!"
+                        FontFamily="Satoshi"
+                        TextTransform="Uppercase"
+                        HorizontalTextAlignment="Start"
+                        VerticalTextAlignment="Center"
+                        FontSize="24" />
+                    <Label
+                        Text="Good day!"
+                        FontFamily="Satoshi"
+                        HorizontalTextAlignment="Start"
+                        VerticalTextAlignment="Center"
+                        FontSize="12" />
+                </VerticalStackLayout>
+
         </Border>
 
         
@@ -44,18 +62,24 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <!-- ADD BUTTON -->
             <Button 
-                Text="+ Add"
+                Text="PROFILE"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
-                Grid.Column="1"/>
-            <!-- SHOW LIST OF HABITS BUTTON -->
+                Grid.Column="2"/>
             <Button 
-                Text="TBD"
+                Text="HOME"
+                BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
-                BackgroundColor="#00000000"/>
+                />
+            <Button 
+                Text="STATS"
+                BackgroundColor="#00000000"
+                TextColor="{StaticResource Accent}"
+                Grid.Column="1"
+                />
         </Grid>
 
     </FlexLayout>
