@@ -3,47 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HabitTracker.MainPage">
 
-
-    <!--<VerticalStackLayout 
-        Padding="1"
-        BackgroundColor="#BCBC21">
-        <Label Text="Your Daily Habits"
-               
-               FontSize="24"
-               TextColor="#252525"
-               FontFamily="Manrope-Bold" 
-               VerticalOptions="StartAndExpand" HorizontalOptions="Center"/>
-
-        <HorizontalStackLayout 
-            TranslationY="10"
-            BackgroundColor="#C0C0C0"
-            Padding="10"
-            HorizontalOptions="Center"
-            >
-            <Button 
-                BackgroundColor="#C0C0C0"
-                Text="This is my task"
-                FontAttributes="Italic"
-                FontFamily="Manrope-Regular"
-                
-                />
-
-        </HorizontalStackLayout>
-
-        <AbsoluteLayout
-              BackgroundColor="#13C413"
-                AbsoluteLayout.LayoutBounds="0,100,50,100"
-                AbsoluteLayout.LayoutFlags="YProportional"
-                
-              >
-            <Button
-
-                Text="BtnBtmR"/>
-        </AbsoluteLayout>
-    </VerticalStackLayout>-->
-
     <FlexLayout 
-        BackgroundColor="#FFFFC400"
+        BackgroundColor="{StaticResource Primary}"
         Direction="Column"
         
         >
