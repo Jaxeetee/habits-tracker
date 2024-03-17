@@ -13,13 +13,8 @@ namespace HabitTracker
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    fonts.AddFont("Manrope-Bold.ttf", "ManropeBold");
-                    fonts.AddFont("Manrope-ExtraBold.ttf", "ManropeExtraBold");
-                    fonts.AddFont("Manrope-ExtraLight.ttf", "ManropeExtraLight");
-                    fonts.AddFont("Manrope-Light.ttf", "ManropeLight");
-                    fonts.AddFont("Manrope-Medium.ttf", "ManropeMedium");
-                    fonts.AddFont("Manrope-Regular.ttf", "ManropeRegular");
-                    fonts.AddFont("Manrope-SemiBold.ttf", "ManropeSemiBold");
+                    fonts.AddFont("BeVietnamPro-Variable.ttf", "BeVietnamPro");
+                    fonts.AddFont("Satoshi-Variable.ttf", "Satoshi");
                 });
 
 #if DEBUG
