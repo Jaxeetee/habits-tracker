@@ -1043,3 +1043,6 @@ C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-andr
 C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-android\resizetizer\f\Manrope-SemiBold.ttf
 C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\MauiCarouselRecyclerView_CarouselViewOnGlobalLayoutListener.java
 C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-android\resizetizer\f\BeVietnamPro-Variable.ttf
+C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-android\resizetizer\f\Satoshi-Variable.ttf
+C:\Users\Jacob\Documents\My Labs\HabitTracker\HabitTracker\obj\Debug\net8.0-android\HabitTracker.sourcelink.json

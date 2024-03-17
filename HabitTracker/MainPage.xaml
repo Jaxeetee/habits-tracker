@@ -45,6 +45,7 @@
     <FlexLayout 
         BackgroundColor="#FFFFC400"
         Direction="Column"
+        
         >
         <!-- HEADER -->
         <Label
