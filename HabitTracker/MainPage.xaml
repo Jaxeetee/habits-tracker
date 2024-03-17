@@ -25,23 +25,23 @@
                     <Label
                         x:Name="lbl_date"
                         Text="Date!"
-                        FontFamily="Satoshi"
+                        FontFamily="Satoshi-400"
                         HorizontalTextAlignment="Start"
                         VerticalTextAlignment="Center"
                         FontSize="24" />
                     <Label
                         Text="Good day!"
-                        FontFamily="Satoshi"
+                        FontFamily="Satoshi-800"
                         TextTransform="Uppercase"
                         HorizontalTextAlignment="Start"
                         VerticalTextAlignment="Center"
-                        FontSize="24" />
+                        FontSize="36" />
                     <Label
-                        Text="Good day!"
-                        FontFamily="Satoshi"
+                        Text="You have X habits to do today"
+                        FontFamily="Satoshi-400"
                         HorizontalTextAlignment="Start"
                         VerticalTextAlignment="Center"
-                        FontSize="12" />
+                        FontSize="18" />
                 </VerticalStackLayout>
 
         </Border>
@@ -66,16 +66,19 @@
             </Grid.ColumnDefinitions>
             <Button 
                 Text="PROFILE"
+                FontFamily="Satoshi-400"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
                 Grid.Column="2"/>
             <Button 
                 Text="HOME"
+                FontFamily="Satoshi-400"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
                 />
             <Button 
                 Text="STATS"
+                FontFamily="Satoshi-400"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
                 Grid.Column="1"
