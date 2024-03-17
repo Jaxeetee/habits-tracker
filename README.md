@@ -14,6 +14,11 @@
 - Once all the main functionalities are done, I will try to add an achievement system in the app to benefit some users who strive in achievements
 - **POST PROD PLAN** For the users to be able to separate the daily habits from habits that are usually done in a specific timeline.
 
-## Version: 0.0.1
-- Just added the project to a github repo.
-- Planning on adding the add functionality of the habit
+## Plans for version 1
+- add habit feature
+- A proper home page
+- scrollable habits
+
+## Additional notes
+- Will create a proper document for the project in the near future
+- My hard deadline for the version 1 will be at the end of march
