@@ -52,7 +52,9 @@
         <!-- CONTENT -->
         <VerticalStackLayout
             FlexLayout.Grow="1">
-            
+            <VerticalStackLayout>
+                
+            </VerticalStackLayout>
         </VerticalStackLayout>
         
         <!-- NAVBAR -->
