@@ -10,8 +10,8 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <Color x:Key="Primary">#AFB5C1</Color>
-            <Color x:Key="Secondary">#E9ECF2</Color>
+            <Color x:Key="PrimaryBG">#AFB5C1</Color>
+            <Color x:Key="SecondaryBG">#E9ECF2</Color>
             <Color x:Key="Accent">#252525</Color>
              <!-- HCV = Habit Color Variation -->
             <Color x:Key="HCVBlue1">#A6CBF5</Color>

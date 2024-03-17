@@ -4,19 +4,30 @@
              x:Class="HabitTracker.MainPage">
 
     <FlexLayout 
-        BackgroundColor="{StaticResource Primary}"
+        BackgroundColor="{StaticResource PrimaryBG}"
         Direction="Column"
         
         >
         <!-- HEADER -->
-        <Label
-            Text="Daily Habits"
-            FontAttributes="Bold"
-            TextTransform="Uppercase"
-            HorizontalTextAlignment="Center"
-            VerticalTextAlignment="Center"
-            FontSize="24"
-            FlexLayout.Grow=".1"     />
+        <Border
+            BackgroundColor="{StaticResource SecondaryBG}"
+            StrokeThickness="0"
+            FlexLayout.Grow=".5">
+            <Border.Shadow>
+                <Shadow Offset="0,5"
+                        Radius="5"
+                        Opacity="0.5"
+                        />
+            </Border.Shadow>
+            <Label
+                Text="Daily Habits"
+                FontFamily="Satoshi"
+                TextTransform="Uppercase"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                FontSize="24" />
+        </Border>
+
         
         <!-- CONTENT -->
         <VerticalStackLayout
@@ -27,7 +38,7 @@
         <!-- NAVBAR -->
         <Grid
             FlexLayout.Grow=".1"
-            BackgroundColor="#00000000"
+            BackgroundColor="{StaticResource SecondaryBG}"
             Padding="2"
             ColumnSpacing=".2">
             <Grid.ColumnDefinitions>
@@ -38,10 +49,12 @@
             <Button 
                 Text="+ Add"
                 BackgroundColor="#00000000"
+                TextColor="{StaticResource Accent}"
                 Grid.Column="1"/>
             <!-- SHOW LIST OF HABITS BUTTON -->
             <Button 
                 Text="TBD"
+                TextColor="{StaticResource Accent}"
                 BackgroundColor="#00000000"/>
         </Grid>
 
