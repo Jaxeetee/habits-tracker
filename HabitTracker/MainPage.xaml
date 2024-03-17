@@ -23,13 +23,14 @@
                 <VerticalStackLayout
                     VerticalOptions="Center">
                     <Label
-                        x:Name="lbl_date"
+                        x:Name="lbl_Date"
                         Text="Date!"
                         FontFamily="Satoshi-400"
                         HorizontalTextAlignment="Start"
                         VerticalTextAlignment="Center"
                         FontSize="24" />
                     <Label
+                        x:Name="lbl_Greetings"
                         Text="Good day!"
                         FontFamily="Satoshi-800"
                         TextTransform="Uppercase"
@@ -37,6 +38,7 @@
                         VerticalTextAlignment="Center"
                         FontSize="36" />
                     <Label
+                        x:Name="lbl_HabitCount"
                         Text="You have X habits to do today"
                         FontFamily="Satoshi-400"
                         HorizontalTextAlignment="Start"
