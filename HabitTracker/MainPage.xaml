@@ -56,7 +56,20 @@
         <VerticalStackLayout
             FlexLayout.Grow="1">
             <VerticalStackLayout>
-                
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button 
+                        x:Name="btn_add"
+                        Clicked="ButtonAddHabit"
+                        Text="Add Habit" 
+                        Grid.ColumnSpan="1"
+                        Grid.Column="2"/>
+                        
+                </Grid>
             </VerticalStackLayout>
         </VerticalStackLayout>
         
@@ -73,19 +86,19 @@
             </Grid.ColumnDefinitions>
             <Button 
                 Text="PROFILE"
-                FontFamily="Satoshi-400"
+                FontFamily="Satoshi-500"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
                 Grid.Column="2"/>
             <Button 
                 Text="HOME"
-                FontFamily="Satoshi-400"
+                FontFamily="Satoshi-500"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
                 />
             <Button 
                 Text="STATS"
-                FontFamily="Satoshi-400"
+                FontFamily="Satoshi-500"
                 BackgroundColor="#00000000"
                 TextColor="{StaticResource Accent}"
                 Grid.Column="1"
