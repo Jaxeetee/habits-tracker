@@ -18,7 +18,7 @@
             Console.WriteLine("Clicked!");
             Navigation.PushAsync(new AddPage());
         }
-
+        
 
     }
 

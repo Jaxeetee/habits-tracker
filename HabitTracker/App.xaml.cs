@@ -6,8 +6,9 @@
         {
             InitializeComponent();
 
-            var navPage = new NavigationPage(new MainPage());
-            MainPage = navPage;
+            NavigationPage navPage = new NavigationPage(new MainPage());
+
+            MainPage = new AppShell();
         }
     }
 }
