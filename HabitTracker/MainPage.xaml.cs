@@ -9,10 +9,6 @@
 
         public void ButtonAddHabit(object sender, EventArgs e) => Navigation.PushAsync(new AddPage());
 
-
-        
-        
-
     }
 
 }

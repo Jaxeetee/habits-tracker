@@ -3,17 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HabitTracker.AddPage"
              Title="AddPage"
-             BackgroundColor="{DynamicResource PrimaryBG}">
+             BackgroundColor="{DynamicResource PrimaryBG}"
+             Shell.NavBarIsVisible="false">
     <VerticalStackLayout>
-        <Label 
-            x:Name="lbl_clicked"
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <Button 
-            x:Name="btn_back"
-            Text="Back"
-            Clicked="Button_Back"
+        <Grid RowDefinitions="100, Auto, *"
+              ColumnDefinitions=".33*, .33*, .33*"
+              Padding="10"
+              RowSpacing="10"
+              ColumnSpacing="10"
+              >
+            <Label 
+                x:Name="lbl_clicked"
+                Text="Enter a new habit"
+                FontFamily="Satoshi-800"
+                FontSize="16"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" 
+                Grid.ColumnSpan="2"
+                BackgroundColor="AliceBlue"/>
+            <Entry
+                BackgroundColor="AliceBlue"
+                Placeholder="Enter title"
+                PlaceholderColor="{StaticResource Accent}"
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
             />
+            <Entry
+                BackgroundColor="AliceBlue"
+                Placeholder="Enter title"
+                PlaceholderColor="{StaticResource Accent}"
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
+            />
+            <Button 
+                x:Name="btn_back"
+                Text="Back"
+                Clicked="Button_Back"
+                Grid.Row="3"
+                Grid.RowSpan="1"
+                Grid.Column="1"
+            />
+            <Button 
+                x:Name="btn_confirm"
+                Text="Confirm"
+                Clicked="ButtonConfirm"
+                Grid.Row="3"
+                Grid.Column="2"
+               />
+        </Grid>
+
     </VerticalStackLayout>
 </ContentPage>
