@@ -57,20 +57,24 @@
         <VerticalStackLayout
             FlexLayout.Grow="1">
             <VerticalStackLayout>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
+                <HorizontalStackLayout
+                    Padding="5,5,5,5"
+                    HorizontalOptions="EndAndExpand">
                     <Button 
                         x:Name="btn_add"
                         Clicked="ButtonAddHabit"
-                        Text="Add Habit" 
-                        Grid.ColumnSpan="1"
-                        Grid.Column="2"/>
+                        Text="Add"
+                        Padding="1,1,1,1"
                         
-                </Grid>
+                        HorizontalOptions="End"
+                        Grid.ColumnSpan="1"
+                        Grid.Column="2"
+                        FontFamily="Satoshi-500"
+                        TextTransform="Uppercase"
+                        BackgroundColor="{StaticResource SecondaryBG}"
+                        TextColor="{StaticResource Accent}"/>
+
+                </HorizontalStackLayout>
             </VerticalStackLayout>
         </VerticalStackLayout>
         
