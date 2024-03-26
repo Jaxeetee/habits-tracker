@@ -8,10 +8,14 @@ public partial class AddPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void Button_Back(object sender, EventArgs e)
+	private void ButtonBack(object sender, EventArgs e)
 	{
-		count++;
-		lbl_clicked.Text = $"went to this page {count} times";
 		Navigation.PopAsync();
 	}
+
+	private void ButtonConfirm(object sender, EventArgs e)
+	{
+		//send to db
+        Navigation.PopAsync();
+    }
 }
