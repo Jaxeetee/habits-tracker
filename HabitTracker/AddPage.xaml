@@ -6,48 +6,83 @@
              BackgroundColor="{DynamicResource PrimaryBG}"
              Shell.NavBarIsVisible="false">
     <VerticalStackLayout
-        Padding="10">
-        <Label 
-            x:Name="lbl_title"
-            Text="New Habit Title:"
-            FontFamily="Satoshi-800"
-            FontSize="16"
-            VerticalOptions="Center" 
-            HorizontalOptions="Start" 
-            Grid.Row="0"
-            Grid.ColumnSpan="2"/>
-        <Frame
-            Padding="0"
-            CornerRadius="5"
-            BackgroundColor="{StaticResource SecondaryBG}"
-            
-            
-            >
-            <Frame.Shadow>
-                <Shadow
+        Padding="10"
+        Spacing="10">
+        
+        <!-- TITLE ENTRY -->
+        <VerticalStackLayout>
+            <Label 
+                x:Name="lbl_title"
+                Text="New Habit Title:"
+                FontFamily="Satoshi-800"
+                FontSize="14"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" 
+                Grid.Row="0"
+                Grid.ColumnSpan="2"/>
+            <Frame
+                Padding="0"
+                CornerRadius="5"
+                BackgroundColor="{StaticResource SecondaryBG}"
+                BorderColor="Transparent"
+                HasShadow="True"
+                >
+                <Frame.Shadow>
+                    <Shadow
+                    Brush="#191919"
+                    Offset="0,0"
                     Radius="10"
-                    Opacity=".75"
+                    Opacity=".8"
                     />
-            </Frame.Shadow>
-            <Entry
-                
-                FontAttributes="None"
+                </Frame.Shadow>
+                <Entry
+                    
+                    FontAttributes="None"
                 />
-        </Frame>
+            </Frame>
+
+        </VerticalStackLayout>
         <Label 
-            x:Name="lbl_description"
-            Text="Describe new Habit:"
-            FontFamily="Satoshi-800"
-            FontSize="14"
-            VerticalOptions="Center" 
-            HorizontalOptions="Start" 
-            Grid.Row="0"
-            Grid.ColumnSpan="2"/>
-        <Editor
-            
-            HeightRequest="250"
-            BackgroundColor="{StaticResource SecondaryBG}"
+            Text="Choose a theme color"
             />
+        <Grid>
+            
+        </Grid>
+        
+        <!-- DESCRIPTION ENTRY -->
+        <VerticalStackLayout>
+            <Label 
+                x:Name="lbl_description"
+                Text="Describe new Habit:"
+                FontFamily="Satoshi-800"
+                FontSize="14"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" 
+                Grid.Row="0"
+                Grid.ColumnSpan="2"/>
+            <Frame  
+                Padding="0"
+                CornerRadius="5"
+                BackgroundColor="{StaticResource SecondaryBG}"
+                BorderColor="Transparent"
+                HasShadow="True"
+                >
+                <Frame.Shadow>
+                    <Shadow
+                        Brush="#191919"
+                        Offset="0,0"
+                        Radius="10"
+                        Opacity=".8"
+                    />
+                </Frame.Shadow>
+                <Editor
+                HeightRequest="250"
+                BackgroundColor="{StaticResource SecondaryBG}"
+            />
+            </Frame>
+        </VerticalStackLayout>
+
+          
         <Grid 
             Padding="10"
             ColumnSpacing="15"
