@@ -2,7 +2,10 @@ namespace HabitTracker;
 
 public partial class AddPage : ContentPage
 {
-	private int count = 0;
+	private readonly List<string>_themeButtonNames = new List<string>()
+	{
+        "btn_blue1", "btn_blue2", "btn_green1", "btn_green2", "btn_pink1", "btn_pink2", "btn_orange", "btn_yellow"
+    };
 	public AddPage()
 	{
 		InitializeComponent();
@@ -18,4 +21,5 @@ public partial class AddPage : ContentPage
 		//send to db
         Navigation.PopAsync();
     }
+
 }

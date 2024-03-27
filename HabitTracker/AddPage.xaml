@@ -12,14 +12,9 @@
         <!-- TITLE ENTRY -->
         <VerticalStackLayout>
             <Label 
-                x:Name="lbl_title"
                 Text="New Habit Title:"
                 FontFamily="Satoshi-800"
-                FontSize="14"
-                VerticalOptions="Center" 
-                HorizontalOptions="Start" 
-                Grid.Row="0"
-                Grid.ColumnSpan="2"/>
+                FontSize="14"/>
             <Frame
                 Padding="0"
                 CornerRadius="5"
@@ -42,24 +37,13 @@
             </Frame>
 
         </VerticalStackLayout>
-        <Label 
-            Text="Choose a theme color"
-            />
-        <Grid>
-            
-        </Grid>
-        
+
         <!-- DESCRIPTION ENTRY -->
         <VerticalStackLayout>
             <Label 
-                x:Name="lbl_description"
                 Text="Describe new Habit:"
                 FontFamily="Satoshi-800"
-                FontSize="14"
-                VerticalOptions="Center" 
-                HorizontalOptions="Start" 
-                Grid.Row="0"
-                Grid.ColumnSpan="2"/>
+                FontSize="14"/>
             <Frame  
                 Padding="0"
                 CornerRadius="5"
@@ -76,6 +60,7 @@
                     />
                 </Frame.Shadow>
                 <Editor
+                    Style="None"
                 HeightRequest="250"
                 BackgroundColor="{StaticResource SecondaryBG}"
             />
@@ -84,7 +69,7 @@
 
           
         <Grid 
-            Padding="10"
+            Padding="0,10,0,0"
             ColumnSpacing="15"
             ColumnDefinitions=".33*, .33*, .33*"
             HorizontalOptions="End">
@@ -92,13 +77,18 @@
                 x:Name="btn_back"
                 Text="Back"
                 Clicked="ButtonBack"
-                CornerRadius="0"
+                TextColor="{StaticResource Accent}"
+                BackgroundColor="{StaticResource SecondaryBG}"
+                CornerRadius="5"
                 Grid.Column="1"
              />
             <Button 
                 x:Name="btn_confirm"
                 Text="Confirm"
                 Clicked="ButtonConfirm"
+                TextColor="{StaticResource Accent}"
+                BackgroundColor="{StaticResource SecondaryBG}"
+                CornerRadius="5"
                 Grid.Column="2"
             />
         </Grid>
