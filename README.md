@@ -10,5 +10,5 @@
 
 ### my project goals
 - learn to use MAUI .NET
-- start learning about full stack development
-- learn more on mobile application development
+- start learning about full-stack development
+- learn more about mobile application development
